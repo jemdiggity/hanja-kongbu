@@ -22,6 +22,18 @@ const router = createRouter({
       name: "signin",
       component: () => import("../components/SignIn.vue"),
     },
+    {
+      path: "/hanja/add",
+      name: "hanjaadd",
+      component: () => import("../components/HanjaAdd.vue"),
+      meta: { requiresAuth: true },
+    },
+    {
+      path: "/hanja/list",
+      name: "hanjalist",
+      component: () => import("../components/HanjaList.vue"),
+      meta: { requiresAuth: true },
+    },
   ],
 });
 
