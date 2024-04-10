@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hanja List</h1>
+    <h3>Hanja List</h3>
     <ul>
       <li v-for="each in hanja" :key="each.id">
         <span>Character {{ each.character }}</span>

@@ -1,8 +1,11 @@
 <template>
   <div>
     <input v-model="hanja" placeholder="type hanja" />
+    <br />
     <input v-model="mnemonic" placeholder="type mnemonic" />
+    <br />
     <input v-model="relatedHanja" placeholder="add related hanja" />
+    <br />
   </div>
 </template>
 
